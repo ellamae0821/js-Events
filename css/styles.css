@@ -10,7 +10,17 @@ header, #footer{
 
   color: white;
 }
+#content{
+  display:none;
+}
+#content.show{
+  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
+}
 
+}
+#content.show{
+  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
+}
 
 #main{
   margin-top: 15px;
